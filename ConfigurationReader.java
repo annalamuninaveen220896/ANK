@@ -10,7 +10,8 @@ public class ConfigurationReader {
 
     static {
         try {
-            //2 - We need to open the file in java memory: FileInputStream
+             System.out.println("File is not found in the ConfigurationReader class");//2 
+                   - We need to open the file in java memory: FileInputStream
             FileInputStream file = new FileInputStream("configuration.properties");
 
             //3- Load the properties object using FileInputStream object
